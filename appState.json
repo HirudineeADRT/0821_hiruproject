@@ -1,0 +1,170 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "0a5753dc-d6e6-42c8-bd80-a0654de96994": {
+        "id": "0a5753dc-d6e6-42c8-bd80-a0654de96994",
+        "parent": null,
+        "name": "0821_hiruproject.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "0821_hiruproject.js",
+        "cursor": {
+          "lineNumber": 88,
+          "column": 27
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "0821hiruproject"
+        },
+        "triggers": [
+          {
+            "resourceName": "alexaSK15970ba19cb64f6f9b22e6d5710707f0",
+            "config": {}
+          }
+        ]
+      },
+      "c0ff2d49-c84a-446b-9602-1466770f0211": {
+        "id": "c0ff2d49-c84a-446b-9602-1466770f0211",
+        "parent": null,
+        "name": "test",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "a32a3908-02c6-4377-9d35-8bc6e0189506"
+        ],
+        "isRemovable": true,
+        "filePath": "test"
+      },
+      "a32a3908-02c6-4377-9d35-8bc6e0189506": {
+        "id": "a32a3908-02c6-4377-9d35-8bc6e0189506",
+        "parent": "c0ff2d49-c84a-446b-9602-1466770f0211",
+        "name": "sample.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "test/sample.js",
+        "cursor": {
+          "lineNumber": 4,
+          "column": 3
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "sample"
+        },
+        "triggers": [
+          {
+            "resourceName": "alexaSK15970ba19cb64f6f9b22e6d5710707f0",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "0a5753dc-d6e6-42c8-bd80-a0654de96994",
+      "a32a3908-02c6-4377-9d35-8bc6e0189506"
+    ],
+    "currentFileId": "a32a3908-02c6-4377-9d35-8bc6e0189506",
+    "resources": {
+      "ddbhirutestddb": {
+        "name": "ddbhirutestddb",
+        "type": "DynamoDB",
+        "config": {
+          "mode": 1,
+          "table": {
+            "arn": "arn:aws:dynamodb:us-east-1:318300609668:table/hirutestddb",
+            "name": "hirutestddb",
+            "partitionKey": "Name",
+            "partitionKeyType": "S",
+            "hasSortKey": false,
+            "sortKey": "",
+            "sortKeyType": "",
+            "payPerRequest": true,
+            "mode": 1,
+            "streamArn": "arn:aws:dynamodb:us-east-1:318300609668:table/hirutestddb/stream/2020-04-10T12:34:06.421",
+            "secondaryIndexes": {}
+          }
+        }
+      },
+      "alexaSK15970ba19cb64f6f9b22e6d5710707f0": {
+        "name": "alexaSK15970ba19cb64f6f9b22e6d5710707f0",
+        "type": "ALEXA",
+        "config": {
+          "type": 1,
+          "verifiedID": true,
+          "skillID": "amzn1.ask.skill.15970ba1-9cb6-4f6f-9b22-e6d5710707f0",
+          "applicationID": ""
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.644.0",
+          "dev": true,
+          "notRemovable": false
+        },
+        "ask-sdk": {
+          "name": "ask-sdk",
+          "language": "nodejs",
+          "version": "2.7.0",
+          "dev": false,
+          "notRemovable": false
+        },
+        "slappforge-sdk-xml": {
+          "name": "slappforge-sdk-xml",
+          "language": "nodejs",
+          "version": "0.0.5",
+          "dev": false,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "0821_hiruproject",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "sigmaVersion": "1.4.1.5",
+    "lastSave": 1601455217960
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "0821_hiruproject",
+      "url": "https://github.com/HirudineeADRT/0821_hiruproject"
+    }
+  }
+}

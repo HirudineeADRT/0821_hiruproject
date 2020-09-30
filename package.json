@@ -1,0 +1,11 @@
+{
+  "name": "0821_hiruproject",
+  "version": "1.0.0",
+  "dependencies": {
+    "ask-sdk": "2.7.0",
+    "slappforge-sdk-xml": "0.0.5"
+  },
+  "devDependencies": {
+    "aws-sdk": "2.644.0"
+  }
+}
