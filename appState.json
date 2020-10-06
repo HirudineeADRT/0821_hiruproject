@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "0821_hiruproject.js",
         "cursor": {
-          "lineNumber": 88,
-          "column": 27
+          "lineNumber": 9,
+          "column": 37
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -51,8 +51,8 @@
         "isRemovable": true,
         "filePath": "test/sample.js",
         "cursor": {
-          "lineNumber": 4,
-          "column": 3
+          "lineNumber": 7,
+          "column": 38
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -74,7 +74,7 @@
       "0a5753dc-d6e6-42c8-bd80-a0654de96994",
       "a32a3908-02c6-4377-9d35-8bc6e0189506"
     ],
-    "currentFileId": "a32a3908-02c6-4377-9d35-8bc6e0189506",
+    "currentFileId": "0a5753dc-d6e6-42c8-bd80-a0654de96994",
     "resources": {
       "ddbhirutestddb": {
         "name": "ddbhirutestddb",
@@ -158,7 +158,7 @@
     "language": "nodejs",
     "platformRegions": {},
     "sigmaVersion": "1.4.1.5",
-    "lastSave": 1601455217960
+    "lastSave": 1601981117940
   },
   "VCS_STATE": {
     "provider": "GitHub",

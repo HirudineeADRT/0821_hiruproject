@@ -89,24 +89,7 @@
               }
             }
           ]
-        },
-        "Policies": [
-          {
-            "PolicyName": "0821hiruprojectPolicy",
-            "PolicyDocument": {
-              "Version": "2012-10-17",
-              "Statement": [
-                {
-                  "Effect": "Allow",
-                  "Action": [
-                    "dynamodb:GetItem"
-                  ],
-                  "Resource": "arn:aws:dynamodb:us-east-1:318300609668:table/hirutestddb"
-                }
-              ]
-            }
-          }
-        ]
+        }
       }
     },
     "alexaSK15970ba19cb60821hiruprojectPermission": {
@@ -177,7 +160,24 @@
               }
             }
           ]
-        }
+        },
+        "Policies": [
+          {
+            "PolicyName": "testsamplePolicy",
+            "PolicyDocument": {
+              "Version": "2012-10-17",
+              "Statement": [
+                {
+                  "Effect": "Allow",
+                  "Action": [
+                    "dynamodb:GetItem"
+                  ],
+                  "Resource": "arn:aws:dynamodb:us-east-1:318300609668:table/hirutestddb"
+                }
+              ]
+            }
+          }
+        ]
       }
     },
     "alexaSK15970ba19cb6testsamplePermission": {
